@@ -1,0 +1,10 @@
+# Ignora todos los EJERCICIO* en carpetas CLASE*, excepto los .cpp
+CLASE*/EJERCICIO*
+!CLASE*/EJERCICIO*.cpp
+
+# Si tienes más patrones similares en el futuro (ej: CLASE03/TALLER*), repite el patrón
+# CLASE*/TALLER*
+# !CLASE*/TALLER*.cpp
+
+.vscode
+
